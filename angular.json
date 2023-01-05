@@ -25,9 +25,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/vendor.min.css",
+              "src/assets/css/common.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor.min.js",
+              "src/assets/js/common.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -87,9 +92,14 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "src/assets/css/vendor.min.css",
+              "src/assets/css/common.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/vendor.min.js",
+              "src/assets/js/common.js"
+            ]
           }
         }
       }
